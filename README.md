@@ -16,3 +16,15 @@ The BPLX format is designed to be compact and efficient. A detailed specificatio
     `python3 create_advanced_bplx.py`
 3.  Run the decoder to read the file:
     `python3 read_bplx_binary.py`
+    
+<h3>OBJ to BPLX Converter</h3>
+<p>The <code>obj_to_bplx_converter.py</code> script is a tool to convert standard <code>.obj</code> files into the BPLX format.</p>
+
+<h4>How to Use:</h4>
+<ol>
+  <li>Place your <code>.obj</code> file in the same directory as the script.</li>
+  <li>Run the script from your terminal:
+    <pre><code>python3 obj_to_bplx_converter.py</code></pre>
+  </li>
+  <li>A new <code>.bplx</code> file will be created with the converted model data.</li>
+</ol>
